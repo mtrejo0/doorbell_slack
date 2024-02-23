@@ -41,7 +41,7 @@ export default function Home() {
         </button>
         <textarea
           rows={"4"}
-          className="w-full p-2 border rounded rows"
+          className="w-full p-2 border rounded rows text-black"
           placeholder="Write your message here..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
